@@ -2,6 +2,8 @@
 
 // set event listeners on each button, do math, and update DOM
 
+
+//ADDITION
 const num1 = document.getElementById('input1');
 const num2 = document.getElementById('input2');
 
@@ -16,7 +18,7 @@ btn.addEventListener('click', () => {
 });
 
 
-
+//SUBTRACTION
 const num3 = document.getElementById('input3');
 const num4 = document.getElementById('input4');
 
@@ -31,21 +33,7 @@ btn2.addEventListener('click', () => {
 });
 
 
-const num7 = document.getElementById('input7');
-const num8 = document.getElementById('input8');
-
-const btn4 = document.getElementById('button-divide');
-const result4 = document.getElementById('result4');
-
-
-btn4.addEventListener('click', () => {
-    result4.textContent = Number(num7.value) / Number(num8.value);
-    //num1.value = '';
-    //num2.value = '';
-});
-
-
-
+//MULTIPLY
 const num5 = document.getElementById('input5');
 const num6 = document.getElementById('input6');
 
@@ -55,6 +43,22 @@ const result3 = document.getElementById('result3');
 
 btn3.addEventListener('click', () => {
     result3.textContent = Number(num5.value) * Number(num6.value);
+    //num1.value = '';
+    //num2.value = '';
+});
+
+
+
+//DIVIDE
+const num7 = document.getElementById('input7');
+const num8 = document.getElementById('input8');
+
+const btn4 = document.getElementById('button-divide');
+const result4 = document.getElementById('result4');
+
+
+btn4.addEventListener('click', () => {
+    result4.textContent = Number(num7.value) / Number(num8.value);
     //num1.value = '';
     //num2.value = '';
 });
